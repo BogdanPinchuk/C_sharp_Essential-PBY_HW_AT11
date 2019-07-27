@@ -64,7 +64,7 @@ namespace LesApp3
                 else
                 {
                     Error("Спроба виходу за межі колекції/масиву.");
-                    return default(TValue);
+                    return default;
                 }
             }
             set
@@ -99,7 +99,7 @@ namespace LesApp3
                 {
                     // якщо нічого не знайдено
                     Error("Вказаний ключ відсутній.");
-                    return default(TValue);
+                    return default;
                 }
             }
             set

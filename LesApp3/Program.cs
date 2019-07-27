@@ -86,16 +86,6 @@ namespace LesApp3
         }
         
         /// <summary>
-        /// Зміна кольору сповіщення
-        /// </summary>
-        private static void Show(string s)
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(s);
-            Console.ResetColor();
-        }
-
-        /// <summary>
         /// Метод виходу або повторення методу Main()
         /// </summary>
         static void DoExitOrRepeat()
