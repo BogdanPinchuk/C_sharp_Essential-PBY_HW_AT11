@@ -32,7 +32,7 @@ namespace LesApp0
                 else
                 {
                     Error();
-                    return default;
+                    return default(T);
                 }
             }
             set
